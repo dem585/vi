@@ -473,7 +473,7 @@ ul{
 	}
 	#order_form{
 		padding: 25px;
-		margin-top: 400px;
+		margin-top: 300px;
 	}
 }
 
@@ -486,7 +486,7 @@ ul{
 		width: 100%;
 	}
 	#based-screen{
-		padding: 30px 15px;
+		padding: 0 15px;
 	}
 	.desctop{
 		display: none;
@@ -523,6 +523,7 @@ ul{
 	#product-comment p{
 		font-size: 16px;
 		text-align: center;
+		margin-top: -10px;
 	}
 
 	.content{
