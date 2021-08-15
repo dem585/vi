@@ -473,7 +473,7 @@ ul{
 	}
 	#order_form{
 		padding: 25px;
-		margin-top: 600px;
+		margin-top: 480px;
 	}
 }
 
@@ -667,6 +667,13 @@ ul{
 
 	.checkbox p{
 		white-space: nowrap
+	}
+	#product-img{
+		width: 280px;
+		height: 200px;
+	}
+	.header{
+		height: 75px;
 	}
 }
 
