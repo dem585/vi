@@ -15,6 +15,15 @@ ul{
 	right: -3px;
 }
 
+#product-comment p{
+	font-weight: 900;
+	font-size: 20px;
+}
+
+#product-comment span{
+	font-weight: 400;
+	font-size: 14px;
+}
 
 /*меню*/
 .menu__btn{
