@@ -24,24 +24,22 @@
 			<div class="flex row items-center align-center w-80 just-between">
 				<img src="img/header_logo1.png">
 				<nav id="menu" class="flex row w-40 just-between">
-					<a href="#">О продукте</a>
-					<a href="#">Отзывы</a>
-					<a href="#">Заказать</a>
+					<a href="#product-r">О продукте</a>
+					<a href="#otb">Отзывы</a>
+					<a href="#otd">Заказать</a>
 				</nav>
 				<!-- Кнопка меню на мобильной версий -->
 				<button class="menu__btn">
-					<span class="menu__btn-span"></span>
-					<span class="menu__btn-span"></span>
-					<span class="menu__btn-span"></span>
+					
 				</button>
 				<!-- Меню мобильное -->
 				<div class="menu__block">
 				<nav class="menu__mb">
 					<img src="img/header_logo2.png">
 					<ul class="menu__inner">
-						<li><a href="#" class="menu__link">О продукте</a></li>
-						<li><a href="#" class="menu__link">Отзывы</a></li>
-						<li><a href="#" class="menu__link">Заказать</a></li>						
+						<li><a href="#product-r" class="menu__link">О продукте</a></li>
+						<li><a href="#otb" class="menu__link">Отзывы</a></li>
+						<li><a href="#otd" class="menu__link">Заказать</a></li>						
 					</ul>
 					<button class="menu__btn close-menu"></button>
 				</nav>
@@ -66,7 +64,9 @@
 		</div>
 
 	</div>
- 	<div id="content" class="flex column w-100 items-center align-center">
+
+	<section id="product-r"></section>
+ 	<div id="content"  class="flex column w-100 items-center align-center">
 		<div id="screen1" class=" content flex row just-between">
 			<div id="screen1-comment" class="screen-comment flex just-between column text-left">
 				<h2>Контроль за измениями состояния сердца</h2>
@@ -187,7 +187,7 @@
 		</picture>
 		</div>
 
-		<section class="coment">
+		<section id="otb" class="coment">
 			<h2 class="coment__title-t">Отзывы пользователей</h2>
 			<div class="container">
 			<div class="coment__block coment__b">
@@ -307,6 +307,7 @@
 			</div>
 
 		</section>
+		<section id="otd"></section>
 	<div id="order-footer" class="flex column just-between items-center align-center">
 			<div id="order" class="flex row just-between self-center align-center items-center" style="position: relative;">
 				<div id="order_comment" class="flex column just-between">
@@ -326,6 +327,7 @@
 						<h2 class="cost">20.000 тг.</h2>
 					</div>		
 				</div>
+				
 				<form id="order_form" action="php/send-form.php" method="POST" class="flex column">
 					<div class="form__box">
 					<div class="form__items">
