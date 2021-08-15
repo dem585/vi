@@ -3,6 +3,10 @@ ul{
 	list-style: none;
 }
 
+.body--hiden{
+	overflow: hidden;
+}
+
 .header__btn{
 	margin-top: 45px;
 }
