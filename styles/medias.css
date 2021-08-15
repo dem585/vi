@@ -1,0 +1,266 @@
+/*@media(max-width: 1000px){
+	html, body{
+		overflow-x: hidden;
+		width: 100vw;
+	}
+	.content{
+		width: 95%;
+		margin-left: 80px;
+	}
+	.w-80{
+		width: 90%;
+	}
+	#near-product{
+		height: 450px;
+	}
+	#base-screen{
+		background-size: cover;
+		background-position: 0% 0px; 
+	}
+	#based-screen .row{
+		width: 90%;
+	}
+	#product-comment{
+		width: 310px !important;
+	}
+	#product-comment h1{
+		font-size: 120px;
+	}
+	#product-comment p{
+		font-size: 17px;
+		width: 430px;
+	}
+	#product-img{
+		height: 320px;
+	}	
+	#screen1 img{
+		width: 350px;
+		margin-top: -50px; 
+	}
+	#screen1-comment{
+		width: 400px;
+		height: 270px;
+	}
+	#screen1-comment h2{
+		font-size: 30px;
+	}
+	#screen1-comment p{
+		font-size: 17px;
+	}
+	#screen1{
+		padding: 100px 0;
+		
+	}
+}*/
+@media(max-height: 900px) and (max-width: 1300px;){
+	#review-cards{
+		min-width: 90vw;
+	}
+	#profi-cards{
+		min-width: 60vw;
+	}
+}
+@media (max-width: 1300px) {
+	html{
+		overflow-x: hidden;
+		width: 100vw;
+	}
+	body{
+		width: 100%;
+	}
+	.blood{
+		width: 100vw;
+	}
+	.content{
+		width: 85% !important;
+		margin-left: 0px;
+	}
+	.w-80{
+		width: 90%;
+	}
+	/*#near-product{
+		height: 450px;
+	}*/
+	#base-screen{
+		/*background-position: -200px -30px; */
+
+	}
+	#based-screen .row{
+		width: 90%;
+	}
+	#product-comment{
+		width: 310px !important;
+	}
+	#product-comment h1{
+		font-size: 120px;
+	}
+	#product-comment p{
+		font-size: 17px;
+		width: 430px;
+	}
+	#product-img{
+		height: 320px;
+	}	
+	#screen1 img{
+		width: 400px;
+		margin: 50px 0 0 0;
+	}
+	#blood2{
+		top: -160px !important;
+	}
+	#screen1-comment{
+		width: 400px;
+		height: 270px;
+	}
+	.screen-comment h2, .content h2{
+		font-size: 30px;
+	}
+	.screen-comment p, .content p{
+		font-size: 17px;
+	}
+	.content h3{
+		font-size: 20px;
+	}
+	#screen1{
+		padding: 100px 0 0 0;
+	}
+	#screen2{
+		position: relative;
+		top: -70px;
+	}	
+	#screen2 img{
+		width: 450px;
+	}
+	#screen2-comment{
+		width: 400px;
+		position: relative;
+		top: 100px;
+		right: 0;
+	} 
+	#screen3-comment{
+		width: 400px;
+	}
+	#screen3 img{
+		width: 400px;
+		margin-top: 80px;
+	}
+	#chars{
+		padding-top: 100px;
+	}
+	#chars .row{
+		width: 100%;
+	}
+	.char-col{
+		width: 380px;
+		height: 450px;
+	}
+	#reviews h2, #profis h2{
+		position: relative;
+		/*left: 60px;*/
+	}
+	#reviews{
+		/*left: -70px;*/
+		position: relative;
+		top: -140px;
+	}
+	
+	.card{
+		width: 230px;
+		height: 446px;
+		padding: 20px;
+		margin: 0 20px;
+	}
+	.card h3{
+		font-size: 24px;
+	}
+	.card p{
+		font-size: 13px;
+	}
+	.card img{
+		padding: 6px;
+	}
+	#blood6{
+		position: relative;
+		top: -150px;
+	}
+	#profis{
+		position: relative;
+		top: -250px;
+		/*left: -70px;*/
+	}
+	#profi-cards .card{
+		height: 530px;
+	}	
+	#order-footer{
+		height: 300px;
+		width: 100%;
+		margin-top: 200px;
+		/*background-image: url("../img/blood7.png");*/
+		/*background-size: cover;*/
+		/*background-position: 0 -200px;*/
+	}
+	#order{
+		position: relative;
+		top: -200px;
+	}
+	/*-------------------------------------------------------------------------------*/
+	#order h2{
+		font-size: 28px;
+	}
+	#order h4{
+		font-size: 12px;
+	}
+	#order_comment{
+		background: #FFFFFF;
+		border-radius: 50px;
+		width: 710px;
+		height: 153px;
+		padding: 43px 0 43px 65px;
+	}
+	#order_form{
+		height: 227px;
+		width: 305px;
+		padding: 30px;
+		background: #FFFFFF;
+		box-shadow: -9px 1px 36px rgba(0, 0, 0, 0.25);
+		border-radius: 50px;
+	}
+	#arenda, #pokupka{
+		position: relative;
+	}
+	#order_form input[type = text], #order_form input[type = tel]{
+		background: #F1F1F1;
+		box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.11);
+		border-radius: 12px;
+		padding: 10px 0 8px 20px;
+		font-size: 18px;
+		line-height: 28px;
+		font-weight: 500;
+		color: rgba(140, 140, 140, 1);
+		border-style: none;
+		margin-bottom: 20px; 
+
+	    outline: none;
+	}
+	label p{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		font-size: 10px;
+		font-weight: 400;
+	}
+	form label{
+		margin: -4px 0 20px 0;
+	}
+	#footer{
+		position: relative;
+		top: -170px;
+	}
+	#links a, #links p{
+		margin: 4px 0;
+	}
+	#arenda .cost, #pokupka .cost{
+	position: absolute;
+		right: 370px;
+	}
+}

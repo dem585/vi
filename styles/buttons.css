@@ -1,0 +1,16 @@
+.btn{
+	background-color: #FF3940;
+
+	 
+	max-height: 56px;
+	border-radius: 15px;
+	padding: 14px 55px 14px 55px;
+	box-shadow: 2px 6px 23px 0px rgba(0, 0, 0, 0.32);
+	text-align: center;
+	color: white;
+}
+
+.btn:hover, .btn:focus{
+	text-decoration: none;
+	text-transform: none;
+}

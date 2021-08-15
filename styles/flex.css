@@ -1,0 +1,93 @@
+.flex{
+	display: flex;
+}
+/*--------------------------------направления------------------------------*/
+.column{
+	flex-direction: column;
+}
+.row{
+	flex-direction: row;
+}
+.column-reverse{
+	flex-direction: column-reverse;
+}
+.row-reverse{
+	flex-direction: row-reverse;
+}
+/*----------------------justify-content(вдоль напраления)-------------------------*/
+.just-center{
+	justify-content: center;
+}
+.just-around{
+	justify-content: space-around;
+}
+.just-between{
+	justify-content: space-between;
+}
+.just-start{
+	justify-content: flex-start;
+}
+.just-end{
+	justify-content: flex-end;
+}
+.just-evenly{
+	justify-content: space-evenly;
+}
+/*-------------------------align-content(перпендикулярно направлению)---------------------------*/
+.align-center{
+	align-content: center;
+}
+.align-around{
+	align-content: space-around;
+}
+.align-between{
+	align-content: space-between;
+}
+.align-start{
+	align-content: flex-start;
+}
+.align-end{
+	align-content: flex-end;
+}
+.align-evenly{
+	align-content: space-evenly;
+}
+/*------------------------align-items(перпендикулярно направлению)-----------------------------*/
+.items-center{
+	align-items: center;
+}
+.items-start{
+	align-items: flex-start;
+}
+.items-end{
+	align-items: flex-end;
+}
+
+/*Флексы выравниваются по их базовой линии.*/
+.items-baseline{
+	align-items: baseline;
+}
+/*Флексы растягиваются таким образом, чтобы занять всё доступное пространство контейнера.*/
+.items-stretch{
+	align-items: stretch;
+}
+
+/*----------------------align-self---------------------------*/
+.self-start{
+	align-self: flex-start;
+}
+.self-end{
+	align-self: flex-end;
+}
+.self-center{
+	align-self: center;
+}
+.self-stretch{
+	align-self: stretch;
+}
+.self-baseline{
+	align-self: baseline;
+}
+/*----------------ЕЩЁ ЕСТЬ flex-basis: X%(или content);  что-то типа width и height---------------------*/
+
+

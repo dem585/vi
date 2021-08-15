@@ -1,0 +1,394 @@
+
+html{
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+/*	overflow-x: hidden;*/
+}
+@font-face {
+    font-family: Inter; /* Гарнитура шрифта */
+    src: url(../fonts/Inter/Inter-VariableFont_slnt,wght.ttf); /* Путь к файлу со шрифтом */
+}
+.text-left{
+	text-align: left;
+}
+.text-center{
+	text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: Inter;
+	padding: 0;
+	margin: 0;
+	color: #131313;
+	letter-spacing: 1px;
+	z-index: 1;
+}
+a, p, label{
+	letter-spacing: 1px;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-family: Inter;
+	z-index: 1;
+}
+p, label{
+	padding: 0;
+	margin: 0;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 140%;
+
+	/* or 25px */
+
+	letter-spacing: 1px;
+		/* Black */
+	color: #131313;
+	z-index: 1;
+}
+#content{
+	background-color: rgba(253, 253, 253, 1);
+}
+
+.blood{
+	z-index: 0;
+	width: 100vw;
+}
+.spinner-wrapper {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(253, 253, 253, 1);
+z-index: 999999;
+}
+.spinner{
+	position: absolute;
+	top: 48%;
+	left: 48%;
+}
+#header .w-100{
+	/*min-width: 900px;*/
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+.content{
+	margin-left: 60px;
+	width: 80%;
+	padding: 100px 0;
+}
+#base-screen{
+	background-image: url("../img/header-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 -10vh;
+	background-color: rgba(253, 253, 253, 1);
+	width: 100%;
+	height: 100%; /*115 */
+}
+#menu a{
+	color: white;
+	font-size: 18px;
+
+}
+#menu{
+	margin-right: 3%;
+	min-width: 500px;
+}
+#based-screen{
+	padding: 100px 0;
+}
+#based-screen h1, #base-screen p{
+	color: rgba(238, 238, 239, 1);
+}
+#based-screen .row{
+	width: 79%;
+}
+#based-screen h1{
+	font-size: 140px;
+	font-weight: 600;
+}
+#product-img{
+	height: 50vh;
+}
+
+#product-comment{
+	width: 510px;
+}
+#product-comment p{
+	font-weight: 500;
+	font-size: 20px;
+	margin-left: 13px; 
+	margin-top: 10px;
+}
+
+#near-product a{
+	width: 187px;
+	height: 28px;
+	padding: 14px 55px;
+	border: 1px solid #FFFFFF;
+	border-radius: 20px;
+	background-color: #00000000;
+	box-shadow: none;
+	position: relative;
+	top: 50px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+.screen-comment{
+	width: 445px;
+	height: 270px;
+}
+.screen-comment h2{
+	width: 470px;
+}
+#screen1 img{
+	width: 40vw;
+	position: relative;
+	top: -70px;
+	border-bottom: 2px solid grey;
+}
+#blood2{
+	width: 100%;
+	height: 30px;
+}
+.blood{
+	height: 30px;
+}
+.blood img{
+	width: 100%;
+}
+#blood2{
+	position: relative;
+	top: -275px;
+}
+#screen2{
+	padding: 400px 0 0 0;
+
+}
+#screen2 img{
+	width: 650px;
+	position: relative;
+	top: 0 !important;
+
+}
+#screen2-comment{
+	width: 448px;
+	height: 190px;
+	position: relative;
+	top: 160px;
+	right: 90px;
+}
+#blood3{
+	height: auto;
+	position: relative;
+	top: -100px;
+}
+.content img{
+	position: relative;
+	top: -150px;
+}
+#screen3{
+	width: 75%;
+}
+#blood4{
+	position: relative;
+	top: -200px;
+}
+#chars h2{
+	margin-bottom: 80px;
+}
+#chars{
+	padding-top: 220px;
+}
+.char-col{
+	height: 500px;
+	width: 497px;
+}
+.char p{
+	margin: 8px 0;
+
+}
+#blood5{
+	position: relative;
+	top: -150px;
+}
+/*------------------------------------------------------------------------*/
+#reviews{
+	padding-top: 370px;
+}
+#review-cards{
+	margin-top: 100px;
+	width: 90%;
+
+}
+.card{
+	background: #FFFFFF;
+	box-shadow: 3px 10px 24px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+	width: 280px;
+	height: 496px;
+	padding: 30px;
+
+}
+.card img{
+	border-radius: 100%;
+	padding: 7px;
+	position: relative;
+	top: 0px;
+}
+.card h3{
+	margin-top: 26px;
+}
+.card p{
+	margin-top: 9px;
+	font-size: 16px;
+}	
+#profis{
+	padding-top: 370px;
+}
+#profi-cards{
+	margin-top: 100px;
+	width: 60%;
+	min-width: 55%;
+}
+#profi-cards .card{
+	height: 570px;
+
+}
+.title{
+	font-size: 18px;
+	font-weight:500;
+}
+#profi-cards .card h3{
+	font-size: 20px;
+}
+/*-----------------------------------------------------------------------------*/
+#content{
+	background-image: url("../img/blood7.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#order-footer{
+	height: 1000px;
+	width: 100%;
+	margin-top: 200px;
+	/*background-image: url("../img/blood7.png");*/
+	/*background-size: cover;*/
+	/*background-position: 0 -200px;*/
+}
+#order{
+	position: relative;
+	top: 300px;
+}
+#order_comment{
+	background: #FFFFFF;
+	border-radius: 50px;
+	width: 1110px;
+	height: 203px;
+	padding: 43px 0 43px 65px;
+}
+#order_form{
+	height: 257px;
+	width: 355px;
+	padding: 50px;
+	background: #FFFFFF;
+	box-shadow: -9px 1px 36px rgba(0, 0, 0, 0.25);
+	border-radius: 50px;
+}
+#arenda, #pokupka{
+	position: relative;
+}
+#order_form input[type = text], #order_form input[type = tel]{
+	background: #F1F1F1;
+	box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.11);
+	border-radius: 15px;
+	padding: 15px 0 13px 25px;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 500;
+	color: rgba(140, 140, 140, 1);
+	border-style: none;
+	margin-bottom: 20px; 
+
+    outline: none;
+}
+form label{
+	margin: -4px 0 30px 0;
+}
+#arenda, #pokupka{
+	position: relative;
+}
+#arenda .cost, #pokupka .cost{
+	position: absolute;
+	right:470px;
+}
+#comment_line{
+	width: 550px;
+	height: 0px;
+	border: 1px solid rgba(197, 197, 199, 1);
+}
+.checkbox {
+    user-select: none;
+	width: 390px;    
+}
+label p{
+	font-size: 13px;
+	font-weight: 400;
+}
+label .red{
+	font-weight: 600;
+	color: #FF1C2B;
+	margin-left: 1px;
+}
+#btn_submit:active{
+	background: #E1232A;
+	box-shadow: 2px 6px 11px rgba(0, 0, 0, 0.18);
+	border-radius: 15px;
+	transition: 0.1s;
+
+}
+input[type=submit]{
+	border-style: none;
+
+}
+input[type=submit][disabled=disabled],
+button[disabled=disabled] {
+    background: rgba(197, 197, 199, 1);
+    cursor: default;
+    transition: 0.1;
+}
+/*------------------------------------------------------------------------*/
+#footer{
+	height: 250px;
+	background-image: url("../img/footer.png");
+	width: 100%;
+	background-size: cover;
+	background-position: 0 0px;
+}
+#footer .w-80{
+	height: 400px;
+	position: relative;
+	top: -50px;
+}
+#links{
+	position: relative;
+	top: 20px;
+	text-align: right;
+}
+#links a, #links p{
+	margin: 8px 0;
+}

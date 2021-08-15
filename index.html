@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vitality</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="styles/flex.css">
+	<link rel="stylesheet" type="text/css" href="styles/sizes.css">
+	<link rel="stylesheet" type="text/css" href="styles/buttons.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="styles/slick.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="styles/medias.css"> -->
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+</head>
+<body class="body">
+	<!-- div class="spinner-wrapper">
+		<div class="spinner"></div>
+	</div> -->
+	<div id="base-screen" class="flex column">
+		<div id="header" class="flex row just-center" style="height: 75px;">
+			<div class="flex row items-center align-center w-80 just-between">
+				<img src="img/header_logo1.png">
+				<nav id="menu" class="flex row w-40 just-between">
+					<a href="#">О продукте</a>
+					<a href="#">Отзывы</a>
+					<a href="#">Заказать</a>
+				</nav>
+				<!-- Кнопка меню на мобильной версий -->
+				<button class="menu__btn">
+					<span class="menu__btn-span"></span>
+					<span class="menu__btn-span"></span>
+					<span class="menu__btn-span"></span>
+				</button>
+				<!-- Меню мобильное -->
+				<div class="menu__block">
+				<nav class="menu__mb">
+					<img src="img/header_logo2.png">
+					<ul class="menu__inner">
+						<li><a href="#" class="menu__link">О продукте</a></li>
+						<li><a href="#" class="menu__link">Отзывы</a></li>
+						<li><a href="#" class="menu__link">Заказать</a></li>						
+					</ul>
+					<button class="menu__btn close-menu"></button>
+				</nav>
+				</div>
+			</div>
+				
+		</div>
+	
+		<div id="based-screen" class="flex row just-center">
+			<div class="flex row just-between align-center items-center">
+				<div id="near-product" class="flex column just-between">
+					<div id="product-comment" class="flex column just-between">
+						<h1>Vitality</h1>
+						<img id="product-img" class="mobi" src="img/product.png">
+						<p >Мощное и простое решение для мониторинга здоровья сердца в режиме реального времени</p>
+					</div>
+					<a href="" class="btn header__btn">Оставить заявку</a>	
+					
+				</div>
+				<img id="product-img" class="desctop" src="img/product.png">
+			</div>
+		</div>
+
+	</div>
+ 	<div id="content" class="flex column w-100 items-center align-center">
+		<div id="screen1" class=" content flex row just-between">
+			<div id="screen1-comment" class="screen-comment flex just-between column text-left">
+				<h2>Контроль за измениями состояния сердца</h2>
+				<p>Аппарат фиксирует ЭКГ с медицинской точностью, благодаря нейронным сетям, которые распознают электрические импульсы сердца и на их основе формируют заключение о состоянии человека, сравнивая отклонения с нормой.</p>
+			</div>
+
+				<img src="img/2nd.png">
+			
+			
+		</div>
+		<div id="blood2" class="blood w-100">
+				<picture>
+					<source srcset="img/line1.png" media="(max-width: 750px)">
+					<img src="img/blood2.png">
+				</picture>
+				</div>
+		<div id="screen2" class="flex content row just-between">
+			<img src="img/3rd.png">
+			<div id="screen2-comment" class="screen-comment flex just-between column text-left">
+				<h2>Компактный и удобный</h2>
+				<p>Прибор крепится в области солнечного сплетения с помощью ремешка вокруг груди, позволяет свободно двигаться и чувствовать себя комфортно в повседневной жизни.</p>
+			</div>
+		</div>
+		<div class="blood w-100" id="blood3">
+			<picture>
+				<source srcset="img/line2.png" media="(max-width: 750px)">
+				<img src="img/blood3.png">
+			</picture>
+			</div>
+		<div id="screen3" class="flex content row just-between">
+			<div id="screen3-comment" class="screen-comment flex just-between column text-left">
+				<h2>Прост в использовании</h2>
+				<p>Связанное по Bluetooth  мобильное приложение расшифровывает полученную от прибора информацию и держит врачей и близких в курсе о состоянии сердца пациента, предоставляя панель с актуальными данными и систему предупреждений при обнаружении необычного поведения.</p>
+			</div>
+			<img src="img/4th.png">
+		</div> 
+		<div class="blood w-100" id="blood4">
+			<picture>
+				<source srcset="img/line3.png" media="(max-width: 750px)">
+				<img src="img/blood4.png">
+			</picture>
+		</div>
+		<div id="chars" class="flex content column just-between">
+			<h2>Характеристики прибора</h2>
+			<div class="row flex w-90 just-between none">
+				<div class="char-col flex column just-between">
+					<div class="char flex column just-between">
+						<h3>Биометрические данные</h3>
+						<p>Электрокардиограмма</p>
+						<p>Частота сердечных сокращений</p>
+						<p>Изменение частоты сердечных сокращений</p>
+					</div>
+					<div class="char flex column just-between">
+						<h3>Канал ЭКГ</h3>
+						<p>Одноканальная ЭКГ с диапазоном частот от 0,05 до 40 Гц</p>
+					</div>
+					<div class="char flex column just-between">
+						<h3>Ресурс батареи</h3>
+						<p style="width: 450">Литий-ионная полимерная батарея обеспечивает 24 часа непрерывной работы</p>
+					</div>
+				</div>
+				<div class="char-col flex column just-between">
+					<div class="char flex column just-between">
+						<h3>Размер</h3>
+						<p>60 х 30 х 20 мм</p>
+					</div>
+					<div class="char flex column just-between">
+						<h3>Вес</h3>
+						<p>150 г</p>
+					</div>
+					<div class="char flex column just-between">
+						<h3>Обхват груди</h3>
+						<p>70-110 см</p>
+					</div>
+					<div class="char flex column just-between">
+						<h3>Водонепроницаемость  </h3>
+						<p>Прибор защищен от пота и влаги по стандарту IP65.</p>
+					</div>
+				</div>
+			</div>
+			<div class="metric">
+				<div class="metric__items">
+					<h4 class="metric__title">Биометрические данные</h4>
+					<li class="metric__text">Электрокардиограмма</li>
+					<li class="metric__text">Частота сердечных сокращений</li>
+					<li class="metric__text">Изменение частоты сердечных сокращений</li>
+				</div>
+				<div class="metric__items">
+					<h4 class="metric__title">Ресурс батареи</h4>
+					<li class="metric__text">Литий-ионная полимерная батарея обеспечивает 24 часа непрерывной работы</li>
+				</div>
+				<div class="metric__items">
+					<h4 class="metric__title">Канал ЭКГ</h4>
+					<li class="metric__text">Одноканальная ЭКГ с диапазоном частот от 0,05 до 40 Гц</li>
+				</div>
+				<div class="metric__items">
+					<h4 class="metric__title">Водонепроницаемость </h4>
+					<li class="metric__text">Прибор защищён от пота и влаги по стандарту IP65</li>
+				</div>
+				<div class="metric__items">
+					<h4 class="metric__title">Обхват груди</h4>
+					<li class="metric__text">70-110 см</li>
+				</div>
+				<div class="metric__items">
+					<h4 class="metric__title">Размер</h4>
+					<li class="metric__text">60 х 30 х 20 мм</li>
+				</div>
+				<div class="metric__items">
+					<h4 class="metric__title">Вес</h4>
+					<li class="metric__text">150г</li>
+				</div>
+			</div>
+		</div> 
+		<div class="blood w-100" id="blood5">
+		<picture>
+			<source srcset="img/line4.png" media="(max-width: 750px)">
+			<img src="img/blood5.png">
+		</picture>
+		</div>
+
+		<section class="coment">
+			<h2 class="coment__title-t">Отзывы пользователей</h2>
+			<div class="container">
+			<div class="coment__block coment__b">
+				<div class="coment__box">
+					<img class="coment__img" src="img/comment1.png">
+					<h4 class="coment__title">Санжар, 52 лет</h4>
+					<p class="coment__text">Постоянно лежал в больницах из-за проблем с сердцем и необходимостью контроля врачей, теперь живу обычной жизнью, а мониторингом моего состояния занимается Vitality.</p>
+				</div>
+				<div class="coment__box">
+					<img class="coment__img" src="img/comment2.png">
+					<h4 class="coment__title">Надежда, 65 лет</h4>
+					<p class="coment__text">С аппаратом от Vitality стала жить намного спокойнее, точно знаю, что мне помогут благодаря оповещениям для близких о моем состоянии.</p>
+				</div>
+				<div class="coment__box">
+					<img class="coment__img" src="img/comment3.png">
+					<h4 class="coment__title">Михаил, 58 лет</h4>
+					<p class="coment__text">С помощью приложения Vitality в любой момент могу проверить работу серца, вовремя принять препараты и остановить ухудшение моего состояния.</p>
+				</div>
+			</div>
+			</div>
+
+			<div class="coment__block coment__block-f mySwiper">
+				<div class="coment__box">
+					<img class="coment__img" src="img/comment1.png">
+					<h4 class="coment__title">Санжар, 52 лет</h4>
+					<p class="coment__text">Постоянно лежал в больницах из-за проблем с сердцем и необходимостью контроля врачей, теперь живу обычной жизнью, а мониторингом моего состояния занимается Vitality.</p>
+				</div>
+				<div class="coment__box">
+					<img class="coment__img" src="img/comment2.png">
+					<h4 class="coment__title">Надежда, 65 лет</h4>
+					<p class="coment__text">С аппаратом от Vitality стала жить намного спокойнее, точно знаю, что мне помогут благодаря оповещениям для близких о моем состоянии.</p>
+				</div>
+				<div class="coment__box">
+					<img class="coment__img" src="img/comment3.png">
+					<h4 class="coment__title">Михаил, 58 лет</h4>
+					<p class="coment__text">С помощью приложения Vitality в любой момент могу проверить работу серца, вовремя принять препараты и остановить ухудшение моего состояния.</p>
+				</div>
+			</div>
+
+			<div class="line5">
+				<picture class="line5-img">
+					<source srcset="img/line5.png" media="(max-width: 750px)">
+					<img src="img/blood6.png">
+				</picture>
+			</div>
+		</section>
+<!-- <div id="reviews" class="flex content column just-between items-center align-center">
+			<h2>Отзывы пользователей</h2>
+			<div id="review-cards" class="slider cards flex row just-between">
+				<div class="slider__block card flex column">
+					<img id="img__slick" src="img/comment1.png">
+					<h3>Санжар, 52 лет</h3>
+					<p>Постоянно лежал в больницах из-за проблем с сердцем и необходимостью контроля врачей, теперь живу обычной жизнью, а мониторингом моего состояния занимается Vitality.</p>
+				</div>
+				<div class="slider__block card flex column">
+					<img id="img__slick" src="img/comment2.png">
+					<h3>Надежда, 65 лет</h3>
+					<p>С аппаратом от Vitality стала жить намного спокойнее, точно знаю, что мне помогут благодаря оповещениям для близких о моем состоянии.</p>
+				</div>
+				<div class="slider__block card flex column">
+					<img id="img__slick" src="img/comment3.png">
+					<h3>Михаил, 58 лет</h3>
+					<p>С помощью приложения Vitality в любой момент могу проверить работу серца, вовремя принять препараты и остановить ухудшение моего состояния.</p>
+				</div>
+			</div>
+		</div> 
+		<div class="blood w-100" id="blood6"><img src="img/blood6.png"></div>
+		<div id="profis" class="flex content column just-between items-center align-center">
+			<h2>Слово профессионалам</h2>
+			<div id="profi-cards" class="cards flex row just-between">
+				<div class="card flex column">
+					<img src="img/profi1.png">
+					<h3 class="text-center">Виктор Баранов</h3>
+					<p class="title text-center">Кардиолог</p>
+					<p>Аппарат Vitality заменяет громоздкие и дорогостоящие машины, позволяет следить за состоянием пациентов вне больницы, при этом вовремя оказывать помощь и собирать данные для научной деятельности докторов- кардиологов.</p>
+				</div>
+				<div class="card flex column">
+					<img src="img/profi2.png">
+					<h3 class="text-center">Елизавета Коптелова</h3>
+					<p class="text-center title">Кардиохирург</p>
+					<p>Послеоперационный период в больнице сокращается вдвое при использовании аппарата Vitality, а во многих случаях вообще предотвращает хирургическое вмешательство благодара своевременным мерам наряду с диагностикой и мониторингом сердца пациентов.</p>
+				</div>
+				
+			</div>
+		</div> -->
+
+		<section class="doc">
+			<h2 class="doc__title">Слово профессионалам</h2>
+			<div class="doc__items none__doc">
+				<div class="doc__block ">
+					<img class="doc__img" src="img/profi1.png">
+					<h4 class="doc__title-h">Виктор Баранов</h4>
+					<span class="doc__text-d">Кардиолог</span>
+					<p class="doc__text">Аппарат Vitality заменяет громоздкие и дорогостоящие машины, позволяет следить за состоянием пациентов вне больницы, при этом вовремя оказывать помощь и собирать данные для научной деятельности докторов- кардиологов.</p>
+				</div>
+				<div class="doc__block ">
+					<img class="doc__img" src="img/profi2.png">
+					<h4 class="doc__title-h">Елизавета Коптелова</h4>
+					<span class="doc__text-d">Кардиохирург</span>
+					<p class="doc__text">Послеоперационный период в больнице сокращается вдвое при использовании аппарата Vitality, а во многих случаях вообще предотвращает хирургическое вмешательство благодара своевременным мерам наряду с диагностикой и мониторингом сердца пациентов.</p>
+				</div>
+			</div>
+
+			<div class="doc__items slider-d">
+				<div class="doc__block">
+					<img class="doc__img" src="img/profi1.png">
+					<h4 class="doc__title-h">Виктор Баранов</h4>
+					<span class="doc__text-d">Кардиолог</span>
+					<p class="doc__text">Аппарат Vitality заменяет громоздкие и дорогостоящие машины, позволяет следить за состоянием пациентов вне больницы, при этом вовремя оказывать помощь и собирать данные для научной деятельности докторов- кардиологов.</p>
+				</div>
+				<div class="doc__block">
+					<img class="doc__img" src="img/profi2.png">
+					<h4 class="doc__title-h">Елизавета Коптелова</h4>
+					<span class="doc__text-d">Кардиохирург</span>
+					<p class="doc__text">Послеоперационный период в больнице сокращается вдвое при использовании аппарата Vitality, а во многих случаях вообще предотвращает хирургическое вмешательство благодара своевременным мерам наряду с диагностикой и мониторингом сердца пациентов.</p>
+				</div>
+			</div>
+
+		</section>
+	<div id="order-footer" class="flex column just-between items-center align-center">
+			<div id="order" class="flex row just-between self-center align-center items-center" style="position: relative;">
+				<div id="order_comment" class="flex column just-between">
+					<div id="arenda" class="flex row">
+						<div class="flex column">
+							<h2>Аренда+ПО</h2>
+							<h4>1 месяц</h4>
+						</div>
+						<h2 class="cost">4.000 тг.</h2>
+					</div>
+					<div id="comment_line"></div>
+					<div id="pokupka" class="flex row">
+						<div class="flex column">
+							<h2>Покупка</h2>
+							<h4>Аппарат Vitality</h4>
+						</div>
+						<h2 class="cost">20.000 тг.</h2>
+					</div>		
+				</div>
+				<form id="order_form" action="php/send-form.php" method="POST" class="flex column">
+					<div class="form__box">
+					<div class="form__items">
+						<div class="form__block">
+							<h2>Аренда+ПО</h2>
+							<h4>1 месяц</h4>
+						</div>
+						<h2 class="form__prise">4.000 тг.</h2>
+					</div>
+					<div class="form__items">
+						<div class="form__block">
+							<h2>Покупка</h2>
+							<h4>Аппарат Vitality</h4>
+						</div>
+							<h2 class="form__prise">20.000 тг.</h2>						
+					</div>
+					</div>
+					<input id="name" type="text" name="name" placeholder="Ваше имя">
+					<input id="phone" type="tel" name="phone" placeholder="Ваш телефон">
+					
+						<label class="checkbox flex row w-100">
+						    <input type="checkbox" name="check" id="check" /><p>Я согласен на обработку<span class="red">персональных <br> данных</span></p> 
+						</label>
+						    
+					
+					<input disabled="disabled"  id="btn_submit" class="btn form__btn" type="submit" name="submit" value="Оставить заявку" >
+				</form>
+
+			</div>
+		 <div id="footer" class="footer flex row w-100 just-center items-end" >
+				<div class="footert__inner flex row w-80 items-end just-between">
+					<img height="50px" id="footer_logo" src="img/footer_logo.png">
+					<div id="links" class="flex column just-between">
+						<a href=""><img src="img/instagram.png"></a>
+						<p>+375 33 564 65 54</p>
+						<a href="">vitalityhelpmail.com</a>
+						<a href="">Политика конфиденциальности</a>
+					</div>
+				</div>
+					
+			</div> 
+		</div> 
+	</div>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>		
+	<script type="text/javascript" src="js/main.js"></script>		
+</body>
+</html>
