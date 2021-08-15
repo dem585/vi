@@ -17,6 +17,11 @@ $(function(){
     $('.body').toggleClass('body--hiden');
   });
 
+  $('.menu__link').on('click', function(){
+    $('.menu__block').toggleClass('menu--active');
+    $('.body').toggleClass('body--hiden');
+  });
+
     // const swiper = new Swiper('.mySwiper',{
     //     pagination: {
     //       el: ".swiper-pagination",
